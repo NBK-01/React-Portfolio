@@ -45,3 +45,49 @@ margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
 `;
+
+export const IconMobile = styled.div`
+display: none;
+
+@media screen and (max-width:768px){
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer; 
+}
+`;
+
+export const NavItems = styled.ul`
+display: flex;
+align-items: center;
+list-style: none;
+text-align: center;
+margin-right: -22px;
+
+@media screen and (max-width:768px){
+    display: none;
+}
+`;
+
+
+export const Item = styled.li`
+height: 80px;
+`
+
+export const NavLinks = styled(Link)`
+color: #fff;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0 1rem;
+height: 100%;
+cursor: pointer;
+
+&.active{
+    border-bottom: 3px dashed red;
+}
+`;
