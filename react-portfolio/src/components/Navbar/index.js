@@ -8,13 +8,19 @@ const Navbar = () => {
         <>
             <Nav> 
                 <NavbarWrapper>  
-                    <NavLogo> Portfolio </NavLogo>
+                    <NavLogo> Design Portfolio </NavLogo>
                     <IconMobile> 
                         <FaBars />   
                     </IconMobile>
                     <NavItems>
                         <Item>
                             <NavLinks to="about"> About </NavLinks>
+                        </Item>
+                        <Item>
+                            <NavLinks to="portfolio"> Portfolio </NavLinks>
+                        </Item>
+                        <Item>
+                            <NavLinks to="skill"> Skills </NavLinks>
                         </Item>
                     </NavItems>
                 </NavbarWrapper>
