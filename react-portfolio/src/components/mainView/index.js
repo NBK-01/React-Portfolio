@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Image from '../../images/Image.png';
+import {MainContainer, MainBg, MainImg} from './mainEl';
+
 
 const Main = () => {
     return (
-        <div>
-            
-        </div>
+        <MainContainer>
+            <MainBg>
+                <MainImg id="vanta"/>
+            </MainBg>
+        </MainContainer>
     )
 }
+
+
 
 export default Main
