@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 import {FaTimes} from 'react-icons/fa';
+import {Link} from 'react-scroll';
 
 
-export const mobileNav = style.aside`
+export const MobileNavCon = styled.aside`
 position:fixed;
 z-index: 999;
 width: 100%;
+height: 100%;
 background: #000;
 display: grid;
 align-items: center;
@@ -14,13 +16,12 @@ left: 0;
 transition: 0.3s ease-in-out;
 opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
 top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
-`
+`;
 
 
-export const closeIcon = style(FaTimes)`
+export const CloseIcon = styled(FaTimes)`
 color: #fff;
-
-`
+`;
 
 export const Icon = styled.div`
 position: absolute;
@@ -30,4 +31,37 @@ background: transparent;
 font-size: 2rem;
 cursor: pointer;
 outline: none;
+`;
+
+export const MobileNavWrapper = styled.div`
+color: #fff;
+`;
+
+
+export const MobileItems = styled.ul`
+display: grid;
+grid-template-columns: 1fr:
+grid-template-rows: repeat(6, 110px);
+text-align: center;
+
+
+@media screen and (max-width: 500px){
+    grid-template-rows: repeat(6, 90px);
+}
+`
+
+export const MobileLinks = styled(Link)`
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+text-decoration: none;
+list-styl: none;
+transition: 0.3s ease-in-out;
+color: #fff;
+
+&:hover{
+    color: red;
+    transition: 0.3s ease-in-out;
+}
 `

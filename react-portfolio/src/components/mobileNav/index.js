@@ -1,21 +1,22 @@
 import React from 'react';
-import {mobileNav, Icon, closeIcon} from './mobileEl';
 
-const mobileNav = () => {
+import {MobileNavCon, Icon, CloseIcon, MobileNavWrapper, MobileItems, MobileLinks} from './mobileEl'
+
+const MobileNav = ({isOpen, toggle}) => {
     return (
-        <mobileNav>
-           <Icon>
-            <closeIcon />   
+        <MobileNavCon isOpen={isOpen} onClick={toggle}>
+           <Icon onClick={toggle}>
+            <CloseIcon />   
             </Icon> 
-            <mobileNavWrapper>
-                <mobileItems>
-                    <mobileLinks to="222"> 1 </mobileLinks>
-                    <mobileLinks to="222"> 1 </mobileLinks>
-                    <mobileLinks to="222"> 1 </mobileLinks>
-                </mobileItems>
-            </mobileNavWrapper>
-        </mobileNav>
+            <MobileNavWrapper>
+                <MobileItems>
+                    <MobileLinks to="222"> 1 </MobileLinks>
+                    <MobileLinks to="222"> 1 </MobileLinks>
+                    <MobileLinks to="222"> 1 </MobileLinks>
+                </MobileItems>
+            </MobileNavWrapper>
+        </MobileNavCon>
     )
 }
 
-export default mobileNav
+export default MobileNav
