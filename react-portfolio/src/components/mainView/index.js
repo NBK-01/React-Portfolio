@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <MainContainer>
             <MainBg>
-                <MainImg id="vanta"/>
+                <MainImg type="image/png" src={Image}/>
             </MainBg>
         </MainContainer>
     )

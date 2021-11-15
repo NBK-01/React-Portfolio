@@ -23,11 +23,19 @@ height: 100%;
 border: 3px dashed black;
 `
 
-export const MainImg = styled.div`
-    position:absolute;
-    z-index:-1;
-    width:100%;
-    height:100%;
+export const MainImg = styled.img`
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+left: 35%;
+width: 550px;
+height: 550px;
 `
 
 
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
