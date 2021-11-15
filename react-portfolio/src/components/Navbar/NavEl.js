@@ -10,7 +10,7 @@ height: 75%;
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: 1.5rem;
+font-size: 1rem;
 position: sticky;
 top: 0;
 z-index: 10
@@ -38,7 +38,7 @@ export const NavLogo = styled(Link)`
 color: #ffffff;
 justify-self: flex-start;
 cursor: pointer; 
-font-size: 2rem;
+font-size: 1.5rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
@@ -56,7 +56,7 @@ display: none;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 2rem;
     cursor: pointer; 
 }
 `;
