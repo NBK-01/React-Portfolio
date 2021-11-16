@@ -1,13 +1,12 @@
 import React from 'react';
-import Image from '../../images/Image.png';
-import {MainContainer, MainBg, MainImg} from './mainEl';
+import {MainContainer, MainBg} from './mainEl';
 
 
 const Main = () => {
     return (
         <MainContainer>
             <MainBg>
-                <MainImg type="image/png" src={Image}/>
+                <h1> Hello There </h1>
             </MainBg>
         </MainContainer>
     )

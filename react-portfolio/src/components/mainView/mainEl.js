@@ -13,6 +13,7 @@ z-index: 1;
 
 
 export const MainBg = styled.div`
+background: grey;
 position: absolute;
 top:5%;
 bottom:0;
@@ -20,18 +21,9 @@ right:0;
 left: 5%;
 width: 90%;
 height: 100%;
-border: 3px dashed black;
 `
 
-export const MainImg = styled.img`
-position: absolute;
-top:0;
-bottom:0;
-right:0;
-left: 35%;
-width: 550px;
-height: 550px;
-`
+
 
 
 /* @media (prefers-reduced-motion: no-preference) {

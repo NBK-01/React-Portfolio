@@ -41,12 +41,13 @@ color: #fff;
 export const MobileItems = styled.ul`
 display: grid;
 grid-template-columns: 1fr:
-grid-template-rows: repeat(6, 110px);
+grid-template-rows: repeat(3, 210px);
 text-align: center;
 
 
+
 @media screen and (max-width: 500px){
-    grid-template-rows: repeat(6, 90px);
+    grid-template-rows: repeat(3, 100px);
 }
 `
 
@@ -59,7 +60,7 @@ text-decoration: none;
 list-styl: none;
 transition: 0.3s ease-in-out;
 color: #fff;
-
+margin-bottom: 50px;
 &:hover{
     color: red;
     transition: 0.3s ease-in-out;

@@ -10,9 +10,9 @@ const MobileNav = ({isOpen, toggle}) => {
             </Icon> 
             <MobileNavWrapper>
                 <MobileItems>
-                    <MobileLinks to="222"> 1 </MobileLinks>
-                    <MobileLinks to="222"> 1 </MobileLinks>
-                    <MobileLinks to="222"> 1 </MobileLinks>
+                    <MobileLinks to="222"> About </MobileLinks>
+                    <MobileLinks to="222"> Portfolio </MobileLinks>
+                    <MobileLinks to="222"> Skills </MobileLinks>
                 </MobileItems>
             </MobileNavWrapper>
         </MobileNavCon>
