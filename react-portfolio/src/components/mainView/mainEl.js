@@ -13,17 +13,26 @@ z-index: 1;
 
 
 export const MainBg = styled.div`
-background: grey;
+background: #0c0c0c;
 position: absolute;
 top:5%;
 bottom:0;
 right:0;
-left: 5%;
-width: 90%;
+left: 10%;
+width: 80%;
 height: 100%;
+border-radius: 20px;
 `
 
+export const MainIntro = styled.h1`
+position: absolute;
+top: 30%;
+bottom: 0;
+right: 0;
+left: 0;
+font-size: 3.5rem;
 
+`
 
 
 /* @media (prefers-reduced-motion: no-preference) {
