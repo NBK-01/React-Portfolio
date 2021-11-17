@@ -18,21 +18,26 @@ position: absolute;
 top:5%;
 bottom:0;
 right:0;
-left: 10%;
-width: 80%;
+left: 0;
+width: 100%;
 height: 100%;
-border-radius: 20px;
+border-radius: 10px;
 `
 
 export const MainIntro = styled.h1`
 position: absolute;
-top: 30%;
+top: 20%;
 bottom: 0;
 right: 0;
-left: 0;
-font-size: 3.5rem;
-
+left: 20%;
+font-size: 4.5rem;
+margin-left: 20px;
+background: linear-gradient(to left bottom, #00ff2c, #00fe7e, #00fab3, #00f4d7, #12ebeb);
+-webkit-background-clip: text;  
+-webkit-text-fill-color: transparent;
 `
+
+
 
 
 /* @media (prefers-reduced-motion: no-preference) {

@@ -7,6 +7,7 @@ const Main = () => {
         <MainContainer>
             <MainBg>
                 <MainIntro> Hello There </MainIntro>
+
             </MainBg>
         </MainContainer>
     )
