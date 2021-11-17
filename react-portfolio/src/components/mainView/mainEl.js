@@ -6,7 +6,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 0px 30px;
-height: 800px;
+height: 850px;
 position relative;
 z-index: 1;
 `
@@ -21,7 +21,7 @@ right:0;
 left: 0;
 width: 100%;
 height: 100%;
-border-radius: 10px;
+border-radius: 30px;
 `
 
 export const MainIntro = styled.h1`
