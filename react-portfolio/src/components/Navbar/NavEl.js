@@ -13,7 +13,8 @@ align-items: center;
 font-size: 1rem;
 position: sticky;
 top: 0;
-z-index: 10
+z-index: 10;
+border-bottom: 3px solid  #00fab3; 
 
 
 @media screen and (max-width: 960px){
@@ -31,6 +32,7 @@ z-index: 1;
 width: 100%;
 padding: 0 24px;
 max-width: 1100px;
+
 `;
 
 
@@ -50,7 +52,7 @@ export const IconMobile = styled.div`
 display: none;
 
 @media screen and (max-width:768px){
-    color: #000;
+    background: linear-gradient(to left bottom, #00ff2c, #00fe7e, #00fab3, #00f4d7, #12ebeb);
     display: block;
     position: absolute;
     top: 0;
