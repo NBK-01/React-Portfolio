@@ -1,5 +1,6 @@
 import React from 'react';
 import {MainContainer, MainBg, MainIntro, MainSub, MainLinks} from './mainEl';
+import ParticleBackground from '../../ParticleBg'
 
 
 const Main = () => {
@@ -14,6 +15,8 @@ const Main = () => {
                     <MainLinks> Twitter </MainLinks>
                 </MainSub>
             </MainBg>
+            <ParticleBackground>
+            </ParticleBackground>
         </MainContainer>
     )
 }
