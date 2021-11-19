@@ -1,23 +1,24 @@
-const particlesConfig = {
+const particlesConfig = 
+{
     particles: {
       number: {
-        value: 250,
+        value: 80,
         density: {
           enable: true,
-          value_area: 900
+          value_area: 800
         }
       },
       color: {
-        value: "#2feb06"
+        value: "#00fab3"
       },
       shape: {
         type: "circle",
         stroke: {
-          width: 4,
-          color: "#0c0c0c"
+          width: 0,
+          color: "#000000"
         },
         polygon: {
-          nb_sides: 3
+          nb_sides: 5
         },
         image: {
           src: "img/github.svg",
@@ -26,7 +27,7 @@ const particlesConfig = {
         }
       },
       opacity: {
-        value: 0.24852886943415603,
+        value: 0.5,
         random: false,
         anim: {
           enable: false,
@@ -36,7 +37,7 @@ const particlesConfig = {
         }
       },
       size: {
-        value: 7,
+        value: 3,
         random: true,
         anim: {
           enable: false,
@@ -46,19 +47,19 @@ const particlesConfig = {
         }
       },
       line_linked: {
-        enable: false,
-        distance: 0,
-        color: "#ffffff",
-        opacity: 0,
-        width: 0
+        enable: true,
+        distance: 150,
+        color: "#00fab3",
+        opacity: 0.4,
+        width: 1
       },
       move: {
         enable: true,
-        speed: 12.827296486924183,
-        direction: "top",
-        random: true,
+        speed: 6,
+        direction: "none",
+        random: false,
         straight: false,
-        out_mode: "bounce",
+        out_mode: "out",
         bounce: false,
         attract: {
           enable: false,
@@ -82,7 +83,7 @@ const particlesConfig = {
       },
       modes: {
         grab: {
-          distance: 109.63042366068159,
+          distance: 400,
           line_linked: {
             opacity: 1
           }
@@ -107,8 +108,6 @@ const particlesConfig = {
       }
     },
     retina_detect: true
-  };
+  }
 
-
-
-export default particlesConfig;
+  export default particlesConfig;
