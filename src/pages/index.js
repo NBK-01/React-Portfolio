@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import MobileNav from '../components/mobileNav';
 import NavBar from '../components/Navbar';
 import Main from '../components/mainView';
+import About from '../components/aboutView';
 
 
 
@@ -17,6 +18,7 @@ const Home = () => {
     <MobileNav isOpen={isOpen} toggle={toggle} />
     <NavBar toggle={toggle}/>
     <Main/>
+    <About/>
         </>
     )
 }
