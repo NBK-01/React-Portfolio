@@ -1,5 +1,5 @@
 import React from 'react';
-import {MainContainer, MainBg, MainIntro, MainSub, MainLinks} from './mainEl';
+import {MainContainer, MainBg, MainIntro, MainBtn} from './mainEl';
 import ParticleBackground from '../../ParticleBg'
 
 
@@ -9,13 +9,8 @@ const Main = () => {
             <MainBg>
             <ParticleBackground>
             </ParticleBackground>
-                <MainIntro> I'm Nayef. Web Development. Design. Planning. </MainIntro>
-                <MainSub> 
-                    <MainLinks> Let's Talk </MainLinks>
-                    <MainLinks> Github </MainLinks>
-                    <MainLinks> LinkedIn </MainLinks>
-                    <MainLinks> Twitter </MainLinks>
-                </MainSub>
+                <MainIntro> Devlopment Agency, Lorem ipsum dolor sit amet, consectetur adip</MainIntro>
+                <MainBtn> Explore </MainBtn>
             </MainBg>
         </MainContainer>
     )

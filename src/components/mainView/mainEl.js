@@ -26,52 +26,28 @@ border-radius: 30px;
 
 export const MainIntro = styled.h1`
 position: absolute;
-top: 10%;
+top: 20%;
 bottom: 0;
+left: 10%;
 right: 0;
-left: 13%;
-font-size: 4rem;
-margin-left: 20px;
-background: linear-gradient(to left bottom, #00ff2c, #00fe7e, #00fab3, #00f4d7, #12ebeb);
--webkit-background-clip: text;  
--webkit-text-fill-color: transparent;
+width: 60%;
+font-size: 3rem;
+color: #fefefe;
 `;
 
-export const MainSub = styled.ul`
+export const MainBtn = styled.a`
 position: absolute;
-top: 30%;
-left: 14%;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-width: 70%;
-list-style: none;
-
-@media screen and (max-width: 768px){
-  top: 50%;
-}
-}
-`
-
-export const MainLinks = styled.li`
+top: 40%;
+bottom: 0;
+left: 10%;
+right: 0;
 font-size: 1.5rem;
 background: linear-gradient(to left bottom, #00ff2c, #00fe7e, #00fab3, #00f4d7, #12ebeb);
 -webkit-background-clip: text;  
 -webkit-text-fill-color: transparent;
-cursor: pointer;
-transition: 0.3s ease-in-out;
-
-&:hover{
-  border-bottom: 2px solid  #00fab3;
-  transform: scale(1.2);
-}
-
-
 `
 
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+// background: linear-gradient(to left bottom, #00ff2c, #00fe7e, #00fab3, #00f4d7, #12ebeb);
+// -webkit-background-clip: text;  
+// -webkit-text-fill-color: transparent;
