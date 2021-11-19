@@ -6,7 +6,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 0px 30px;
-height: 850px;
+height: 800px;
 position relative;
 z-index: 1;
 `

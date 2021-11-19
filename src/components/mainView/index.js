@@ -7,6 +7,8 @@ const Main = () => {
     return (
         <MainContainer>
             <MainBg>
+            <ParticleBackground>
+            </ParticleBackground>
                 <MainIntro> I'm Nayef. Web Development. Design. Planning. </MainIntro>
                 <MainSub> 
                     <MainLinks> Let's Talk </MainLinks>
@@ -15,8 +17,6 @@ const Main = () => {
                     <MainLinks> Twitter </MainLinks>
                 </MainSub>
             </MainBg>
-            <ParticleBackground>
-            </ParticleBackground>
         </MainContainer>
     )
 }
