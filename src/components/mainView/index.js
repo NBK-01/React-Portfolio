@@ -7,10 +7,10 @@ const Main = () => {
     return (
         <MainContainer>
             <MainBg>
-            <ParticleBackground>
-            </ParticleBackground>
                 <MainIntro> Devlopment Agency, Lorem ipsum dolor sit amet, consectetur adip</MainIntro>
                 <MainBtn> Explore </MainBtn>
+                <ParticleBackground>
+            </ParticleBackground>
             </MainBg>
         </MainContainer>
     )

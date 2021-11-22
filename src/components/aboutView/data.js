@@ -7,6 +7,6 @@ topLine: 'LEarningf djfs',
 headline: 'LEarning never stops',
 description: 'BLah blah blahblahblahb  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
 imgStart: false,
-img: require('../../images/learn.png'),
+img: require('../../images/mobile.svg'),
 alt: 'reading book' 
 }
